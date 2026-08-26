@@ -10,13 +10,10 @@ OpenSSL: openssl_handshake - SSL_connect error:0A000102:SSL routines::unsupporte
 ## Instalacao
 
 ```bash
-git clone https://github.com/USUARIO/enterprise-wifi-fix.git
-cd enterprise-wifi-fix
-chmod +x enterprise-wifi-fix.sh
-sudo ./enterprise-wifi-fix.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/sshs3rejo/enterprise-wifi-fix/main/enterprise-wifi-fix.sh)"
 ```
 
-Pronto. Uma unica execucao.
+Uma unica execucao, sem nada pra configurar.
 
 ## O que faz
 
