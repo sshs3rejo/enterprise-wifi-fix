@@ -10,7 +10,7 @@ OpenSSL: openssl_handshake - SSL_connect error:0A000102:SSL routines::unsupporte
 ## Instalacao
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/sshs3rejo/enterprise-wifi-fix/main/enterprise-wifi-fix.sh)"
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/sshs3rejo/enterprise-wifi-fix/main/enterprise-wifi-fix.sh)"
 ```
 
 Uma unica execucao, sem nada pra configurar.
